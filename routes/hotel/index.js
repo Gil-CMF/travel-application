@@ -3,6 +3,7 @@
 	const router = express.Router();
 	const authenticateUsers = require('../../middlewares');
 	const hotel = require('../../controllers/hotel')
+	
 
 	/// public endpoints
 	router.get('/', hotel.listAllHotels);
